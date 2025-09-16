@@ -14,7 +14,17 @@
 - lucide-react
 
 ## Como rodar
-Após instalar o Node.js e executar `npm install`, utilize seu framework ou bundler preferido (ex: Vite, Next.js, Create React App) para iniciar o projeto. Este repositório contém apenas os componentes e páginas, sem configuração de build.
+Após instalar o Node.js e executar `npm install`, você pode rodar o projeto de forma simples:
+
+1. Certifique-se de que existe a pasta `public` com o arquivo `index.html` e a pasta `src` com `index.js` e `App.js`.
+2. Use um bundler como Vite, Parcel ou Create React App para compilar e servir o projeto.
+	 - Exemplo com Vite:
+		 - Execute `npm create vite@latest` e escolha a pasta atual.
+		 - Substitua o conteúdo de `src/App.js` e `src/index.js` pelos arquivos deste projeto.
+		 - Mantenha o `public/index.html`.
+		 - Execute `npm run dev` para visualizar.
+
+Se preferir, adapte para Next.js ou outro framework React.
 
 ## Estrutura
 - `components/Home/` — Componentes funcionais React para cada seção
